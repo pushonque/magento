@@ -1,0 +1,20 @@
+<layout>
+    <cms_index_index>
+        <reference name="content">
+            <block type="pushon_banner/config" name="pushonbanner" template="pushon_banner/banner.phtml" before="-">
+            </block>
+        </reference>
+    </cms_index_index>
+    <catalog_category_view>
+        <reference name="content">
+            <block type="pushon_banner/config" name="pushonbanner" template="pushon_banner/banner.phtml" before="-">
+            </block>
+        </reference>
+    </catalog_category_view>
+    <catalog_product_view>
+        <reference name="content">
+            <block type="pushon_banner/config" name="pushonbanner" template="pushon_banner/banner.phtml" before="-">
+            </block>
+        </reference>
+    </catalog_product_view>
+</layout>

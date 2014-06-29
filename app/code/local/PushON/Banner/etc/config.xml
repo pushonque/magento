@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <PushON_Banner>
+            <version>0.1.0</version>
+        </PushON_Banner>
+    </modules>
+    <global>
+        <blocks>
+            <pushon_banner>
+                <class>PushON_Banner_Block</class>
+            </pushon_banner>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <pushon_banner>
+                    <file>pushon_banner/pushon_banner.xml</file>
+                </pushon_banner>
+            </updates>
+        </layout>
+    </frontend>
+</config>
